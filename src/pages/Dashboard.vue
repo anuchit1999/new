@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <div class="row">
       <div class="col-12">
         <card type="chart">
@@ -8,7 +7,7 @@
             <div class="row">
               <div class="col-sm-6" :class="isRTL ? 'text-right' : 'text-left'">
                 <h5 class="card-category">{{$t('dashboard.totalShipments')}}</h5>
-                <h2 class="card-title">{{$t('dashboard.performance')}}</h2>
+                <!-- <h2 class="card-title">{{$t('dashboard.performance')}}</h2> -->
               </div>
               <div class="col-sm-6">
                 <div class="btn-group btn-group-toggle"
@@ -197,7 +196,7 @@
               borderWidth: 2,
               borderDash: [],
               borderDashOffset: 0.0,
-              data: [53, 20, 10, 80],
+              data: [53, 20, 10, 80],  
             }]
           },
           gradientColors: config.colors.primaryGradient,

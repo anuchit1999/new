@@ -10,7 +10,7 @@
           >
           </base-table>
           <div class="button1">
-            <b-button pill variant="primary" href="http://127.0.0.1:8000/export-csv/">Download CSV</b-button>
+            <b-button pill variant="primary" href="https://stackpython.pythonanywhere.com/export-csv/">Download CSV</b-button>
           </div>
         </div>
       </card>
@@ -60,33 +60,27 @@ import { BaseTable } from "@/components";
 const tableColumns = ["No", "Kind", "Weight", "DateTime"];
 const tableData = [
   
+ 
   {
-    id:1,
+     id:3,
     no: 1,
     kind: "Bottle",
-    weight: 79.5,
-    datetime: "2021-06-08, 8.05"
+    weight: 35.8,
+    datetime: "2021-06-09, 08.03"
   },
   {
     id:2,
     no: 2,
     kind: "Bottle",
-    weight: 79.5,
-    datetime: "2021-06-08, 8.13"
+    weight: 35.9,
+    datetime: "2021-06-08, 08.13"
   },
   {
-     id:3,
+    id:1,
     no: 3,
     kind: "Plastic",
-    weight: 59.5,
-    datetime: "2021-06-08, 8.26"
-  },
-  {
-    id:4,
-    no: 4,
-    kind: "Bag",
-    weight: 45.5,
-    datetime: "2021-06-08, 8.35"
+    weight: 69.2,
+    datetime: "2021-06-08, 08.03"
   },
 ];
 

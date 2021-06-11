@@ -1,10 +1,10 @@
 {
   "dashboard": {
-    "completedTasks": "Completed Tasks",
+    "completedTasks": "น้ำหนักขยะตามแต่ละประเภท",
     "dailySales": "น้ำหนักขยะตามแต่ละประเภท",
     "performance": "Performance",
     "simpleTable": "Simple Table",
-    "totalShipments": "Total Shipments",
+    "totalShipments": "การทิ่้งขยะประจำวัน",
     "chartCategories": [
       "Today",
       "Week",

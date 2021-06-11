@@ -7,42 +7,32 @@
           <thead>
             <tr>
               <th scope="col"></th>
-              <th scope="col">ชื่อ</th>
-              <th scope="col">นามสกุล</th>
-              <th scope="col">ชื่อเล่น</th>
-              <th scope="col">อีเมล์</th>
-              <th scope="col">สถานะ</th>
+              <th scope="col">Name</th>
+              <th scope="col">Email</th>
+              <th scope="col">Status</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
               <td>วิทย์</td>
               <td>test@gmail.com</td>
               <td> <p class="text-success">online</p> </td>
             </tr>
             <tr>
               <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
               <td>ปอนด์</td>
               <td>test@gmail.com</td>
               <td> <p class="text-danger">offline</p> </td>
             </tr>
             <tr>
               <th scope="row">3</th>
-              <td>Larry</td>
-              <td>the Bird</td>
               <td>ออม</td>
               <td>test@gmail.com</td>
               <td> <p class="text-success">online</p> </td>
             </tr>
             <tr>
               <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
               <td>ปอ</td>
               <td>test@gmail.com</td>
               <td> <p class="text-danger">offline</p> </td>
